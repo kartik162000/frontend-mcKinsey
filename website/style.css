@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.name
+ {
+    display: flex;
+    flex-direction: colomn;
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(29,188,157,255);
+    width:100%;
+    height: 15vh;
+    color:white;
+}
+.links
+{
+    background-color: black;
+    z-index: 1;
+    height:2vh;   
+    padding: 10px;
+    color: white;
+}
+
+.inside-links span
+{
+    margin-left: 10px;
+    margin-bottom: px;
+}
+.inside-links span a
+{
+
+    text-decoration: none;
+    color: white;
+}
+
+.content
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.left
+{
+    background-color: rgba(241,241,241,255);
+    width: 30%;
+    height: 70vh;
+}
+.inside-content
+{
+    padding: 20px;
+}
+.right
+{
+    background-color: rgba(255,255,255,255);
+    width: 70%;
+    height: 70vh;
+}
+.img-container
+{
+   width: 100%;
+   background-color: rgba(169,171,170,255);
+
+}
+.images
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#imgc
+{
+    height: 10vh;
+
+}
+.img-c
+{
+    width: 100%;
+    background-color: rgba(169,171,170,255);
+    margin-top: 10px;
+    height: 40px;
+}
+.footer
+{
+    background-color: rgba(220,221,219,255);
+    width: 100%;
+    height: 15vh;
+}
+
